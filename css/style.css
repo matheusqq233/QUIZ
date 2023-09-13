@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 28px;
+    margin-top: 20px;
+    color: #61DAFB;
+}
+
+#question {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    font-size: 18px;
+    padding: 12px 24px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#result {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #61DAFB;
+}
+
+#next-button {
+    font-size: 18px;
+    padding: 12px 24px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #61DAFB;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    display: none;
+}
+
+#next-button:hover {
+    background-color: #44AEE9;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.credits {
+    font-size: 16px;
+}
+
+.credit-names {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.credit-names span {
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+#result-gif {
+    display: none;
+    margin-top: 20px;
+}
+
+#result-gif img {
+    max-width: 100%;
+    height: auto;
+}
+
+#next-button {
+    font-size: 18px;
+    padding: 12px 24px;
+    margin: 10px auto; /* Centraliza horizontalmente o botão "Próxima Pergunta" */
+    cursor: pointer;
+    background-color: #61DAFB;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    display: none;
+}
+
+#try-again-button {
+    font-size: 18px;
+    padding: 12px 24px;
+    margin: 10px auto; /* Centraliza horizontalmente o botão "Tente Novamente" */
+    cursor: pointer;
+    background-color: #FF4500;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    display: none;
+}
+
+#options button.correct-answer {
+    background-color: green;
+    color: white;
+}
+
+#options button.incorrect-answer {
+    background-color: red;
+    color: white;
+}
+
+/* Estilos para Dispositivos Pequenos (Mobile) */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    #question {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    #options button {
+        font-size: 18px;
+        padding: 14px 20px; /* Aumente o tamanho do padding para tornar os botões mais "tocáveis" */
+        margin: 8px;
+    }
+}
