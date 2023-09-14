@@ -24,6 +24,56 @@ const questions = [
         options: ["Protetor auricular", "Máscara facial", "Luvas"],
         correctAnswer: 0
     },
+
+        {
+            question: "6. O que é LER/DORT?",
+            options: [
+                "Lesão por Esforço Repetitivo/Distúrbios Osteomusculares Relacionados ao Trabalho",
+                "Lesão por Esforço Repetitivo/Distúrbios Oculares Relacionados ao Trabalho",
+                "Lesão por Esforço Repetitivo/Distúrbios Respiratórios Relacionados ao Trabalho",
+            ],
+            correctAnswer: 0
+        },
+        {
+            question: "7. Quais são os principais fatores ergonômicos que podem causar LER/DORT?",
+            options: [
+                "Postura inadequada, esforço físico excessivo, repetitividade de movimentos e vibração",
+                "Iluminação inadequada, ruído excessivo, temperatura elevada e umidade baixa",
+                "Falta de treinamento, falta de motivação, falta de equipamentos de proteção e falta de supervisão",
+            ],
+            correctAnswer: 0
+        },
+        {
+            question: "8 - O que é o SESMT?",
+            options: [
+                "Serviço de Engenharia de Segurança e Medicina do Trabalho",
+                "Serviço de Engenharia de Segurança e Marketing do Trabalho",
+                "Serviço de Engenharia de Segurança e Mercado do Trabalho"
+            ],
+            correctAnswer: 0
+        },
+        {
+            question: "9 - Qual é a função do SESMT?",
+            options: [
+                "Orientar os trabalhadores sobre o uso correto do EPI",
+                "Realizar estudos relativos à antropometria e avaliar os riscos do ambiente de trabalho",
+                "Realizar a manutenção dos equipamentos de proteção individual"
+            ],
+            correctAnswer: 1
+        },
+        {
+            question: "10 - Quais são os benefícios da utilização correta do EPI e da ergonomia no ambiente de trabalho?",
+            options: [
+                "Redução de acidentes e doenças ocupacionais, aumento da produtividade e melhoria da qualidade de vida do trabalhador",
+                "Redução de custos da empresa, aumento da produtividade e melhoria da imagem da empresa",
+                "Redução de custos da empresa, aumento dos lucros da empresa e melhoria da qualidade de vida do trabalhador"
+            ],
+            correctAnswer: 0
+        }
+    
+    
+    // ... (rest of your code remains the same)
+    
 ];
 
 let currentQuestionIndex = 0;
